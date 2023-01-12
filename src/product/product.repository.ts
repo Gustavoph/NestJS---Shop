@@ -14,8 +14,6 @@ type Product = {
     description: string;
   }[];
   category: string;
-  dateCreation: Date;
-  dateUpdate: Date;
 };
 
 @Injectable()
